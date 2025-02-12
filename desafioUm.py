@@ -16,3 +16,9 @@ print("Tipos de dados retornados pela função:", tipoDado)
 linhas, colunas = dataFrame.shape # retorna as dimenções 
 print("Quantidades de linhas, colunas", dataFrame.shape)
 
+# Função que recebe o dataFrame e retorna o número de linhas e colunas
+def obterDimensao(dataFrame):
+    return dataFrame.shape
+
+dimensao = obterDimensao(dataFrame)
+print("Quantidades de linhas, colunas", dimensao)
